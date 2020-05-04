@@ -1,0 +1,114 @@
+@media (max-width: 768px){
+
+    #partners .partner__item {
+        width: 33.33%;
+        padding-left: 0;
+    }
+    #partners .partner__item i{
+        margin: 2rem;
+    }
+}
+@media (max-width: 992px){
+    .dropdown-toggle::after {
+        display: block;
+        width: 0%;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .logo{
+        display: none;
+    }
+    .justify-content-center {
+        flex-flow: column;  
+    }
+    .carousel-inner {
+        height: auto;
+    }
+    .customContainer{
+        width: 90%;
+    }
+    #records span {
+        font-size: 4rem;
+    }
+    #records .records__item{
+        margin-bottom: 3rem;
+    }
+    #records .records__item .records__item-info h2 {
+        font-size: 5rem;
+    }
+    #records .records__item .records__item-info p {
+        font-size: 2.5rem;
+    }
+    #records .records__item .records__item-icon {
+        width: 100px;
+        height: 100px;
+        font-size: 5.7rem;
+    }
+    #comment p{
+        color: black;
+        opacity: 1;
+    }
+    #form .row{
+        justify-content: center;
+    }
+    #form form::after{
+        width: 25%;
+    }
+    #form form::before{
+        width: 25%;
+    }
+    form h2{
+        top: -12px;
+        right: 40px;
+        left: 40px;
+        margin: auto;
+    }
+    form .contact__item{
+        justify-content: center;
+    } 
+  
+}
+#contact .contact__item .contact__item-icon i {
+
+    margin: 0 2rem;
+}
+
+@media screen and (min-width:992px) and (max-width:1325px) {
+    #form form::after{
+        width: 25%;
+    }
+    #form form::before{
+        width: 25%;
+    }
+    form h2{
+        font-size: 1.8rem;
+        top: -12px;
+        right: 40px;
+        left: 40px;
+        margin: auto;
+    }
+}
+
+/* ================================= */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #About .About__info  {
+        margin-left: 20px;
+    }
+}
+/* ================================= */
+
+@media (max-width:1010px){
+    #About figure{
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 25px;
+        margin-inline-end: 40px;
+    }
+}
+/* ================================= */
+@media screen and (min-width:992px) and (max-width:1326px) {
+    #hero  a{
+        margin: 0;
+    }
+
+}

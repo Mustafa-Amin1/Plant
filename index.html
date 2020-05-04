@@ -1,0 +1,715 @@
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media_query.css">
+  <title>Plants</title>
+</head>
+
+<body>
+  <!-- Start Header Code -->
+  <header id="hero">
+    <div class="container ">
+      <nav id="nav"class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand d-lg-none d-sm-block" href="#"><span>P</span>lants</a>
+        <button class="navbar-toggler py-2 px-4" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class=" navContainer">
+            <div class="row no-gutters justify-content-center">
+              <ul class="navbar-nav col-md-5 col-sm-12">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">OUR TEAM <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+              <div class="logo col-md-2 col-sm-12">
+                <a class="navbar-brand" href="#"><span>P</span>lants</a>
+              </div>
+              <ul class="navbar-nav col-md-5 col-sm-12 ">
+                <li class="nav-item dropdown  d-flex flex-column ">
+                  <a class="nav-link dropdown-toggle  col-lg" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    LANGUAGE
+                  </a>
+                  <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="#en" data-reload>English</a>
+                    <a class="dropdown-item" href="#ar"data-reload>العربية</a>
+                   
+                  </div>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">BLOG <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">GALLERY <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">CONTACT US <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    <!-- ========================================================================================= -->
+    <section class="header__slider">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/1.jpg" class="d-block w-100 img-fluid  " alt="...">
+            <div class="carousel-caption slider__content d-block">
+              <h5>Welcome to Plants</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.dolor sit amet, consectetur adipiscing</p>
+              <button type="button" class=" slider__btn " data-toggle="modal"
+                data-target="#staticBackdrop">
+                READ MORE
+              </button>
+              <a href="#About"><i class="fas fa-angle-double-down"></i></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/2.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption slider__content d-block">
+              <h5>Welcome to Plants</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.dolor sit amet, consectetur adipiscing</p>
+              <button type="button" class=" slider__btn " data-toggle="modal"
+                data-target="#staticBackdrop">
+                READ MORE
+              </button>
+              <a href="#About"><i class="fas fa-angle-double-down"></i></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/3.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption slider__content d-block">
+              <h5>Welcome to Plants</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.dolor sit amet, consectetur adipiscing</p>
+              <button type="button" class=" slider__btn " data-toggle="modal"
+                data-target="#staticBackdrop">
+                READ MORE
+              </button>
+              <a href="#About"><i class="fas fa-angle-double-down"></i></a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+  </header>
+  <!-- End Header Code -->
+  <!-- Start About Code -->
+  <section id="About">
+    <section class="container">
+      <div class="row no-gutters justify-content-lg-end justify-content-center">
+        <section class="About__img col-lg-3 mr-5 ">
+          <figure class="figure team1 ">
+            <img src="./images/ab2.jpg" alt="team1" class="img-thumbnail">
+          </figure>
+          <figure class="figure team2">
+            <img src="./images/ab.jpg" class="img-thumbnail" alt="team2">
+          </figure>
+        </section>
+        <section class="About__info col-lg-6 ">
+          <div class="card About__info-content">
+            <div class="card-body">
+              <h5 class="card-title">About Us</h5>
+              <h6 class="card-subtitle mb-2 ">DUIS AUTE IRURE OLOR IN CILLUM SOLORE</h6>
+              <blockquote class=" card-text blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                </p>
+              </blockquote>
+              <div class="container">
+                <div class="row justify-content-start ">
+                  <a href="#" class="card-link col-5-md ">
+                    <img src="./images/te1.jpg" alt="owner" class="rounded-circle" style="width: 7rem;">
+                  </a>
+                  <div class="owner__name ml-4 col-5-md ">
+                    <h6>Admin Name</h6>
+                    <p>Company Name</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </section>
+  <!-- End About Code -->
+  <!-- Start services Code -->
+  <section id="services">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="card col-lg-3 text-center border-0 p-0 bg-transparent">
+          <div class="card-body p-0">
+            <div class="card-icon border rounded-circle  d-inline-block mb-5  ">
+
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h5 class="card-title h2 font-weight-bold">GARDEN CARE</h5>
+            <p class="card-text p-3 ">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip.</p>
+
+          </div>
+        </div>
+        <div class="card col-lg-3 text-center border-0 p-0 bg-transparent">
+          <div class="card-body p-0">
+            <div class="card-icon border rounded-circle  d-inline-block mb-5  ">
+
+              <i class="fas fa-tree"></i>
+            </div>
+            <h5 class="card-title h2 font-weight-bold">PANT RENOVATION</h5>
+            <p class="card-text p-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+            </p>
+
+          </div>
+        </div>
+        <div class="card col-lg-3 text-center border-0 p-0 bg-transparent">
+          <div class="card-body p-0">
+            <div class="card-icon border rounded-circle  d-inline-block mb-5  ">
+              <i class="fab fa-pagelines"></i>
+            </div>
+            <h5 class="card-title h2 font-weight-bold">ALWAYS FRESH</h5>
+            <p class="card-text p-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End services Code -->
+  <!-- Start services Code -->
+  <section id="blog">
+    <div class="container blog__container container-sm">
+      <div class="row no-gutters justify-content-between">
+        <div class="blog__info col-md-8 col-12 ">
+          <h2 class="text-center"><b>Latest</b> Blog</h2>
+          <div class="list-group align-items-center">
+            <div class="list-group-item pt-0 pl-5 pb-5">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1 h2 pb-3">Iste natus error sit</h5>
+                <span>21 Nov, 2020</span>
+              </div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                  ante.scing elit. Integer posuere erat a ante</p>
+              </blockquote>
+            </div>
+            <div class="list-group-item pt-0 pl-5 pb-5">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1 h2 pb-3">Totam rem aperiem</h5>
+                <span>21 Nov, 2020</span>
+              </div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                  ante.scing elit. Integer posuere erat a ante</p>
+              </blockquote>
+            </div>
+            <div class="list-group-item pt-0 pl-5 pb-5">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1 h2 pb-3">Eaque ipsa quae</h5>
+                <span>21 Nov, 2020</span>
+              </div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                  ante.scing elit. Integer posuere erat a ante</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="blog__img col-md-4 text-right col-12 ">
+          <figure class="figure">
+            <img src="./images/blog.jpg" class="figure-img img-fluid  rounded" alt="blogger">
+          </figure>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End services Code -->
+  <!-- Start  Choose Code -->
+  <section id="choose">
+    <div class="choose__header text-center">
+      <h2><b>Why</b> Choose Us</h2>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="card col-lg-3 p-0 m-lg-4 border-0">
+          <img src="./images/wh1.jpg" class="card-img-top" alt="...">
+          <div class="card-body border">
+            <h2>Quality Products</h2>
+            <small>MAGNA KITUM - LOREMIPSUM</small>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 P-0 m-lg-4 border-0">
+          <img src="./images/wh2.jpg" class="card-img-top" alt="...">
+          <div class="card-body border">
+            <h2>Work Smart</h2>
+            <small>MAGNA KITUM - LOREMIPSUM</small>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 P-0 m-lg-4 border-0">
+          <img src="./images/wh3.jpg" class="card-img-top" alt="...">
+          <div class="card-body border">
+            <h2>Excellent Services</h2>
+            <small>MAGNA KITUM - LOREMIPSUM</small>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Choose Code -->
+  <!-- Start records Code -->
+  <section id="records">
+    <div class="container customContainer">
+      <div class="row  ">
+        <span class="col-lg-6  ">We give you Care tips and Ideas on what style suits your garden</span>
+      </div>
+      <div class="row justify-content-center ">
+        <section class="records__item col-lg-3  d-flex">
+          <section class="records__item-icon mr-3 ">
+            <i class="fas fa-smile"></i>
+          </section>
+          <section class="records__item-info">
+            <h2>1280</h2>
+            <p class="text-left">Happy Customers</p>
+          </section>
+        </section>
+        <section class="records__item col-lg-3  d-flex">
+          <section class="records__item-icon mr-3 ">
+            <i class="fas fa-shield-alt"></i>
+          </section>
+          <section class="records__item-info">
+            <h2>920</h2>
+            <p class="text-left">Awards Win</pclass="text-left">
+          </section>
+        </section>
+        <section class="records__item col-lg-3  d-flex">
+          <section class="records__item-icon mr-3 ">
+            <i class="fas fa-leaf"></i>
+          </section>
+          <section class="records__item-info">
+            <h2>1400</h2>
+            <p class="text-left">Products</p>
+          </section>
+        </section>
+        <section class="records__item col-lg-3  d-flex">
+          <section class="records__item-icon mr-3 ">
+            <i class="far fa-thumbs-up"></i>
+          </section>
+          <section class="records__item-info ">
+            <h2>1080</h2>
+            <p class="text-left">Rating</p>
+          </section>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- End records Code -->
+  <!-- Start records Code -->
+  <section id="team">
+    <div class="container">
+      <h2 class="h1 text-center pb-5"><b>Our</b> Team</h2>
+      <div class="row justify-content-center">
+        <div class="card col-lg-2  p-0 m-lg-3 border-0 text-center">
+          <figure class="figure">
+            <img src="./images/t1.jpg" class="figure-img img-fluid rounded" alt="...">
+          </figure>
+          <div class="card-body text-center">
+            <h5 class="card-title">Mock Joe</h5>
+            <div class="social-icon d-inline-block facebook m-2">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="social-icon d-inline-block twitter m-2">
+
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="social-icon d-inline-block google m-2">
+
+              <a href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-2  p-0 m-lg-3 border-0 text-center">
+          <figure class="figure">
+            <img src="./images/t2.jpg" class="figure-img img-fluid rounded" alt="...">
+          </figure>
+          <div class="card-body text-center">
+            <h5 class="card-title">Cruz Deo</h5>
+            <div class="social-icon d-inline-block facebook m-2">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="social-icon d-inline-block twitter m-2">
+
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="social-icon d-inline-block google m-2">
+
+              <a href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-2  p-0 m-lg-3 border-0 text-center">
+          <figure class="figure">
+            <img src="./images/t3.jpg" class="figure-img img-fluid rounded" alt="...">
+          </figure>
+          <div class="card-body text-center">
+            <h5 class="card-title">Rochy Jae</h5>
+            <div class="social-icon d-inline-block facebook m-2">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="social-icon d-inline-block twitter m-2">
+
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="social-icon d-inline-block google m-2">
+
+              <a href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-2  p-0 m-lg-3 border-0 text-center">
+          <figure class="figure">
+            <img src="./images/t4.jpg" class="figure-img img-fluid rounded" alt="...">
+          </figure>
+          <div class="card-body text-center">
+            <h5 class="card-title">Rojo Poy</h5>
+            <div class="social-icon d-inline-block facebook m-2">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="social-icon d-inline-block twitter m-2">
+
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="social-icon d-inline-block google m-2">
+
+              <a href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Team Code -->
+
+  <!-- Start Comment Code -->
+  <section id="comment">
+    <div class="customContainer">
+      <div class="row justify-content-start">
+        <blockquote class=" col-lg-7 blockquote ">
+          <p class="mb-0"><i class="fas fa-quote-left"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Animi amet corrupti optio. Natus a cum dicta, reiciendis harum voluptas beatae repellat modi. Odio maxime,
+            aliquid dolorum nisi sunt aut id!</p>
+          <footer class=" h2 pt-5 font-weight-bold">Mary Jane </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+  <!-- End Comment Code -->
+  <!-- Start gallery Code -->
+  <section id="gallery">
+    <div class="container customContainer">
+      <h2 class="h1 text-center pb-5"><b>Our</b> Plants</h2>
+      <div class="row ">
+        <figure class="  mb-4 col-sm-3 figure">
+          <img src="./images/g1.jpg" class="w-100 figure-img img-fluid rounded" alt="...">
+        </figure>
+        <figure class="  mb-4 col-sm-3 figure">
+          <img src="./images/g2.jpg" class=" w-100 figure-img img-fluid rounded" alt="...">
+        </figure>
+        <figure class="  mb-4 col-sm-3 figure">
+          <img src="./images/g3.jpg" class="w-100 figure-img img-fluid rounded" alt="...">
+        </figure>
+        <figure class="  mb-3 col-sm-3 figure">
+          <img src="./images/g4.jpg" class="w-100 figure-img img-fluid rounded" alt="...">
+        </figure>
+        <div class="w-100"></div>
+        <figure class="  col-sm-3 figure">
+          <img src="./images/g5.jpg" class="w-100 figure-img img-fluid rounded" alt="...">
+        </figure>
+        <figure class="  col-sm-3 figure">
+          <img src="./images/g6.jpg" class="w-100 figure-img img-fluid rounded" alt="...">
+        </figure>
+        <figure class="  col-sm-3 figure">
+          <img src="./images/g7.jpg" class="w-100 figure-img img-fluid rounded" alt="...">
+        </figure>
+        <figure class="  col-sm-3 figure">
+          <img src="./images/g8.jpg" class="w-100 figure-img img-fluid rounded" alt="...">
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!-- End gallery Code -->
+
+  <!-- Start  form Code -->
+  <section id="form">
+    <h2 class="h1 text-center pb-5"><b>Contact</b> Us</h2>
+    <div class="row no-gutters justify-content-lg-center">
+      <form class="col-sm-5 ">
+        <h2 class="h2 text-center ">Send Us A Note</h2>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter you name">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter you email">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="your message"
+            rows="3"></textarea>
+        </div>
+        <button class=" form-control " id="exampleFormControlInput1" placeholder="Enter you email">SEND</button>
+      </form>
+    </div>
+    <div class="customContainer">
+      <section id="contact">
+        <div class="row justify-content-center ">
+          <section class="contact__item mb-4 col-lg-4 d-flex flex-row justify-content-sm-center">
+            <section class="contact__item-icon ">
+              <i class="fas fa-envelope"></i>
+            </section>
+            <section class="contact__item-info d-flex flex-column align-items-start">
+              <a href="mailto:acc.mustafa1@yahoo.com">acc.mustafa1@yahoo.com</a>
+              <a href="mailto:acc.mustafa1@yahoo.com">mail 1@example.com</a>
+            </section>
+          </section>
+          <section class="contact__item mb-4 col-lg-4 d-flex flex-row justify-content-sm-center">
+            <section class="contact__item-icon  ">
+              <i class="fas fa-phone-alt"></i>
+            </section>
+            <section class="contact__item-info d-flex flex-column align-items-start">
+              <a href="tel:01009914623"> +20 1009914623</a>
+              <a href="tel:01009914623"> +20 0127317995 </a>
+            </section>
+          </section>
+          <section class="contact__item mb-4 col-lg-4 d-flex flex-row justify-content-sm-center">
+            <section class="contact__item-icon  ">
+              <i class="fas fa-map"></i>
+            </section>
+            <section class="contact__item-info d-flex flex-column align-items-start">
+              <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">786 Main Road
+                ,hollies</a>
+              <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">California,USA</a>
+            </section>
+          </section>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- End form Code -->
+  <!-- Start partners Code -->
+  <section id="partners">
+    <h2 class="h1 text-center pb-5"><b>Our</b> Partners</h2>
+    <div class="container customContainer">
+      <div class=" row align-items-center justify-content-sm-center">
+        <div class="partner__item col-sm-2">
+          <i class="fab fa-pied-piper"></i>
+        </div>
+        <div class="partner__item col-sm-2">
+          <i class="fab fa-stumbleupon"></i>
+        </div>
+        <div class="partner__item col-sm-2">
+          <i class="fab fa-digg"></i>
+        </div>
+        <div class="partner__item col-sm-2">
+          <i class="fab fa-drupal"></i>
+        </div>
+        <div class="partner__item col-sm-2">
+          <i class="fab fa-joomla"></i>
+        </div>
+        <div class="partner__item col-sm-2">
+          <i class="fab fa-slack"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End partners Code -->
+<!-- footer -->
+<section id="footer">
+  <div class="container ">
+    <div class="row flex-column  align-items-center text-center">
+      <section class="footer__header col-lg-6 ">
+        <span class="h1">
+          We Provide Best Services
+        </span>
+        <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, explicabo perferendis ex sequi est quibusdam culpa neque</p>
+      </section>
+      <section class="footer__contact">
+        <div class="footer__header-logo">
+          <a class="navbar-brand" href="#"><span>P</span>lants</a>
+        </div>
+        <p>tempora velit exercitationem doloribus ipsam sed </p>
+        <div class="footer__contact-items">
+          <div class="container">
+          <div class="row  justify-content-center align-items-center" >
+            <section class="contact__item mr-lg-5 d-flex flex-row ">
+              <section class="contact__item-icon  mr-3 align-self-center ">
+                <i class="fas fa-map-marker-alt"></i> 
+                           </section>
+              <section class="contact__item-info ">
+                <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">786 Main Road
+                  ,hollies</a>
+              </section>
+            </section>
+            <section class="contact__item mr-lg-5 d-flex flex-row ">
+              <section class="contact__item-icon mr-3 align-self-center ">
+                <i class="fas fa-phone-alt"></i>
+              </section>
+              <section class="contact__item-info">
+                <a href="tel:01009914623"> +20 1009914623</a>
+              </section>
+            </section>
+            <section class="contact__item mr-lg-5 d-flex flex-row ">
+              <section class="contact__item-icon mr-3 align-self-center ">
+                <i class="fas fa-envelope"></i>
+              </section>
+              <section class="contact__item-info ">
+                <a href="mailto:acc.mustafa1@yahoo.com">acc.mustafa1@yahoo.com</a>
+              </section>
+            </section>
+          
+            <!--  -->
+          </div>
+        </div>
+            <!--  -->
+            <section class="social pt-4">
+              <div class="social-icon d-inline-block facebook m-2">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+              <div class="social-icon d-inline-block twitter m-2">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+              <div class="social-icon d-inline-block google m-2">
+                <a href="#">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </div>
+              <div class="social-icon d-inline-block facebook m-2">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </section>
+        </div>
+      </section>
+      <section class="signatrue col-sm-12 pt-5"">
+        <p>This Template developed with <i class="fas fa-heart"></i> by <span>Mustafa Amin</span></p>
+
+    </section>
+     
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<div class="scroll__upper">
+  <a href="#hero" id="scroll__upper">
+    <i class="fas fa-arrow-circle-up"></i>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+ <!-- Header  Button Modal -->
+ <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+ aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="staticBackdropLabel">Welcome to Our Garden</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+     <div class="modal-body">
+       You can choose any type of plants you would prefer from here 
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       <button type="button" class="btn btn-primary">Understood</button>
+     </div>
+   </div>
+ </div>
+</div>
+  <!-- Header  Button Modal -->
+  
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
